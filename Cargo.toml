@@ -1,0 +1,10 @@
+[package]
+name = "pay_converter"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+clap = { version = "4.3.21", features = ["derive"] }
+colored = "2.0.4"
+concolor-clap = "0.1.0"
+num-format = "0.4.4"
